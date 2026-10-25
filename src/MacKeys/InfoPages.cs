@@ -48,7 +48,7 @@ static class InfoPages
             "A key feels stuck: press and release Alt and the Windows key once, or pause and resume remapping from the tray icon.",
             "Need a normal Windows keyboard for a moment: right-click the tray icon and untick “Remapping on”.",
             "Shortcuts got messy: click Restore defaults on the Shortcuts tab.",
-            $"Settings are saved in {AppSettings.FilePath}.");
+            @"Settings are saved in %APPDATA%\MacKeys\settings.json — the “Open settings folder” link on the General tab takes you there.");
 
         return doc.Page("Help");
     }
